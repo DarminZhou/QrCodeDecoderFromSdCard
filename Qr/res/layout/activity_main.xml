@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="20dip"
+        android:text="@string/decode_label"
+        android:textColor="@color/mbackground1" />
+
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/mbackground2"
+        android:gravity="center_horizontal"
+        android:padding="20dip"
+        android:textColor="@color/mytextcolor" />
+
+    <Button
+        android:id="@+id/webbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/web_button"
+        android:textColor="@color/mytextcolor" />
+
+    <Button
+        android:id="@+id/butonSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Resim seç"
+        android:textColor="@color/mytextcolor" />
+
+</LinearLayout>
